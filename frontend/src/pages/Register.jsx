@@ -34,6 +34,9 @@ const Register = () => {
   };
 
   const handleSubmit = async (e) => {
+    console.log(name);
+  
+    console.log(email);
     e.preventDefault();
 
     if (password !== confirmPassword) {
